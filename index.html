@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Integer Practice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Integer Practice</h1>
+	  <h2>Instructions</h2>
+	  <p>To confirm your response, please click on the "check answer" button. To proceed to a new question,</p>
+		<p>kindly click on the "new question" button. I apologize for the negative number not being enclosed in parentheses.</p>
+		<br> 
+		<br>
+      <div id="equation"></div>
+      <form onsubmit="checkAnswer(); return false;">
+        <input type="number" id="answer" required>
+        <button type="submit">Check Answer</button>
+		<button onclick="newQuestion()">New Question</button>
+
+      </form>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

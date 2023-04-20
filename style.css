@@ -1,0 +1,78 @@
+/* Style for container */
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background-color: #f0f8f5;
+	border: 1px solid #ddd;
+  }
+  
+  /* Style for heading */
+  h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	font-family: sans-serif
+  }
+  
+  /* Style for sub-heading */
+  h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+  }
+  
+  /* Style for paragraph */
+  p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+  }
+  
+  /* Style for form */
+  form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+  }
+  
+  /* Style for input */
+  input[type="number"] {
+	width: 60px;
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 1.2rem;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+  }
+  
+  /* Style for buttons */
+  button[type="submit"], button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+  }
+  
+  /* Style for submit button on hover */
+  button[type="submit"]:hover {
+	background-color: #0062cc;
+  }
+  
+  /* Style for new question button on hover */
+  button:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Style for result */
+  #result {
+	margin-top: 20px;
+	font-size: 1.2rem;
+
+  }
+  
